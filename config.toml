@@ -1,0 +1,19 @@
+# This is a TOML document. Boom.
+
+# listen address
+ListenAddress = ":8080"
+
+#home page
+HomeUrl = "/"
+
+#static folder : yaaw ==> /yaaw
+StaticFS = ["yaaw","aria2"]
+
+#BasicAuth
+#http://admin:admin321@127.0.0.1:8080/yaaw/
+#http://guest:guest@127.0.0.1:8080/yaaw/
+[Accounts]
+#username admin，password admin321,password must be lower case.
+admin="admin321"
+
+#guest="guest"
